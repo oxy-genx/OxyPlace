@@ -21,11 +21,12 @@ export default function Sell() {
   const [selectedNft, setSelectedNft] = useState<NFTType>();
 
   return (
+    <div className="pt-5 text-center">
     <Container maxWidth="lg">
-      <h1>Sell NFTs</h1>
+      <h1>Sell Plants</h1>
       {!selectedNft ? (
         <>
-          <p>Select which NFT you&rsquo;d like to sell below.</p>
+          <p>Select which Plant you&rsquo;d like to sell below.</p>
           <NFTGrid
             data={data}
             isLoading={isLoading}
@@ -33,8 +34,9 @@ export default function Sell() {
               setSelectedNft(nft);
             }}
             emptyText={
-              "Looks like you don't own any NFTs in this collection. Head to the buy page to buy some!"
+              "Looks like you don't own any Plant in this collection. Head to the buy page to buy some!"
             }
+            
           />
         </>
       ) : (
@@ -62,7 +64,7 @@ export default function Sell() {
               {selectedNft.metadata.name}
             </h1>
             <p className={tokenPageStyles.collectionName}>
-              Token ID #{selectedNft.metadata.id}
+              Plant ID #{selectedNft.metadata.id}
             </p>
 
             <div className={tokenPageStyles.pricingContainer}>
@@ -72,5 +74,6 @@ export default function Sell() {
         </div>
       )}
     </Container>
+    </div>
   );
 }

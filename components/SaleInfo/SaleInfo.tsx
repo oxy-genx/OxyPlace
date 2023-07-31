@@ -225,7 +225,7 @@ export default function SaleInfo({ nft }: Props) {
               );
             }}
           >
-            Create Direct Listing
+            <b>List you Plant</b>
           </Web3Button>
         </div>
 
@@ -300,7 +300,7 @@ export default function SaleInfo({ nft }: Props) {
               );
             }}
           >
-            Create Auction Listing
+            <b>Auction your Plant</b>
           </Web3Button>
         </div>
       </div>

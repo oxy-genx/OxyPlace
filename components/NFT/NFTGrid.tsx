@@ -17,7 +17,7 @@ export default function NFTGrid({
   isLoading,
   data,
   overrideOnclickBehavior,
-  emptyText = "No NFTs found for this collection.",
+  emptyText = "No Plants found for this collection.",
 }: Props) {
   return (
     <div className={styles.nftGridContainer}>

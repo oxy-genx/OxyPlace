@@ -1,3 +1,8 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
 html,
 body {
   padding: 0;
@@ -14,8 +19,8 @@ html {
 }
 
 body {
-  color: #ffffff;
-  background: #191c1f;
+  color: #fff;
+  background: black;
   --color-primary: #fada3f;
   --color-secondary: #ff2136;
   --color-tertiary: #0294fe;

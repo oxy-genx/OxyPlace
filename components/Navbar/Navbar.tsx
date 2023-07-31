@@ -15,12 +15,7 @@ export function Navbar() {
       <nav className={styles.nav}>
         <div className={styles.navLeft}>
           <Link href="/" className={`${styles.homeLink} ${styles.navLeft}`}>
-            <Image
-              src="/logo.png"
-              width={48}
-              height={48}
-              alt="NFT marketplace sample logo"
-            />
+            OxyPlant
           </Link>
 
           <div className={styles.navMiddle}>
@@ -41,7 +36,7 @@ export function Navbar() {
             <Link className={styles.link} href={`/profile/${address}`}>
               <Image
                 className={styles.profileImage}
-                src="/user-icon.png"
+                src="/user.png"
                 width={42}
                 height={42}
                 alt="Profile"

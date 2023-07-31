@@ -32,6 +32,7 @@ export default function ProfilePage() {
 
   const { contract: marketplace } = useContract(
     MARKETPLACE_ADDRESS,
+    // OXYPlace
     "marketplace-v3"
   );
 
