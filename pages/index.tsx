@@ -1,6 +1,6 @@
 import type { NextPage } from "next";
 import Link from "next/link";
-import Image from "next/image";
+// import Image from "next/image";
 import styles from "../styles/Home.module.css";
 
 /**
@@ -46,7 +46,7 @@ const Home: NextPage = () => {
 
 There is no PLANET B. The Planet you live-in is only the Planet to survive. But we are rigorously exploiting the Planet because we don't value it.
 
-Here we, Present you the OxygenX Project by Yash Deharia, to solve the biggest REAL WORLD PROBLEM. That will give you the ownership of Plants --<br></br><b>That bring's Value to the Nature</b>.
+Here we, Present you the OxygenX Project by Yash Deharia, to solve the biggest REAL WORLD PROBLEM. That will give you the ownership of Plants --<br></br><b>That brings Value to the Nature</b>.
               </p>
 
               <div className={styles.heroCtaContainer}>
