@@ -44,7 +44,7 @@ const Home: NextPage = () => {
                 </Link>{" "}
                 is a emerging Project that can save the World without any central needs.
 
-There is no PLANET B. The Planet you live-in is only the Planet to survive. But we are rigorously exploiting the Planet because we don't value it.
+There is no PLANET B. The Planet you live-in is only the Planet to survive. But we are rigorously exploiting the Planet because we dont value it.
 
 Here we, Present you the OxygenX Project by Yash Deharia, to solve the biggest REAL WORLD PROBLEM. That will give you the ownership of Plants --<br></br><b>That brings Value to the Nature</b>.
               </p>
