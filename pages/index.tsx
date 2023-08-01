@@ -13,7 +13,7 @@ const Home: NextPage = () => {
       <div className={styles.content}>
         <div className={styles.hero}>
           <div className={styles.heroBackground}>
-            {/* <div className={styles.heroBackgroundInner}>
+            <div className={styles.heroBackgroundInner}>
               <Image
                 src="/hero-gradient.png"
                 width={1390}
@@ -22,7 +22,7 @@ const Home: NextPage = () => {
                 quality={100}
                 className={styles.gradient}
               />
-            </div> */}
+            </div>
           </div>
           
           <div className={styles.heroBodyContainer}>
